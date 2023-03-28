@@ -1,4 +1,4 @@
-# Título
+# Portfólio com Next.js!
 
 Projeto do meu portfólio feito com Next.js 13(utilizando sua versão mais recente para conhecer e testar as novas features) e tailwind (já que o next vai incluí-lo como biblioteca padrão de estilos)
 
