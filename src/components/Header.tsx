@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function Header() {
   return (
-    <header className="w-full fixed top-0 left-0 px-8 py-4 flex items-center justify-between backdrop-blur">
+    <header className="w-full h-24 fixed top-0 left-0 px-8 py-4 flex flex-col items-center gap-1 lg:flex-row justify-between backdrop-blur saturate-150">
       <Link href="/" className="text-zinc-100 text-4xl font-bold">&lt;Portfólio &frasl;&gt;</Link>
 
       <nav>

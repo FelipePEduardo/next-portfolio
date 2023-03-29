@@ -1,9 +1,19 @@
-export function Project() {
+interface ProjectProps {
+  onRepo: {
+    name: string
+    description: string
+    html_url: string
+  }
+}
+
+export function Project({ onRepo }: ProjectProps) {
   return (
-    <a className="flex flex-col">
-      <span className="text-gray-50">Título</span>
+    <a href={onRepo.html_url} target="_blank" className="flex flex-col lg:w-44 hover:scale-110 transition-all">
+      <span className="text-gray-50">{ onRepo.name }</span>
       <p className="text-gray-400">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores a architecto ex, cupiditate iste reprehenderit dicta! Culpa corrupti, maiores, possimus sequi adipisci, itaque unde perferendis rem odio cupiditate illo deleniti.
+        {
+          onRepo.description
+        }
       </p>
     </a>
   )

@@ -10,12 +10,14 @@ export default function Home() {
           width={360}
           height={360}
           className='rounded-full'
+          priority
+          quality={100}
         />
       </div>
 
       <div>
         <span className="text-lg font-medium text-gray-400">Seja bem-vindo</span>
-        <h1 className="text-5xl font-bold bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text text-transparent mt-2">Felipe Pereira Eduardo</h1>
+        <h1 className="text-5xl font-bold bg-gradient-to-r from-[#7938b2] to-[#d49ef5] bg-clip-text text-transparent mt-2">Felipe Pereira Eduardo</h1>
         <p className="mt-1 text-xl">Desenvolvedor Front-End</p>
       </div>
     </div>
