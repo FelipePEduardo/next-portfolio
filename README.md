@@ -8,7 +8,7 @@ Projeto do meu portfólio feito com Next.js 13(utilizando sua versão mais recen
 
 ## Stack utilizada
 
-**Front-end:** React, TailwindCSS
+**Front-end:** Next.js 13, TailwindCSS
 
 ## 🚀 Rodando o projeto
 

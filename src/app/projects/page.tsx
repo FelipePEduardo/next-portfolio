@@ -1,28 +1,20 @@
-'use client'
-
-import { useEffect, useState } from "react";
 import { Project } from "./components/project";
 
-interface repos {
+interface repo {
   id: number
   name: string
   description: string
   html_url: string
 }
 
-export default function Projects() { 
-  const [repos, setRepos] = useState<repos[]>([])
+async function getReposFromUser() {
+  const response = await fetch("https://api.github.com/users/FelipePEduardo/repos?sort=pushed&per_page=12")
 
-  async function fetchRepos() {
-    const res = await fetch('https://api.github.com/users/FelipePEduardo/repos?sort=pushed&per_page=12')
-    const data = await res.json()
+  return response.json()
+}
 
-    setRepos(data)
-  }
-
-  useEffect(() => {
-    fetchRepos()
-  }, [])
+export default async function Projects() { 
+  const data = await getReposFromUser()
 
   return (
     <div className="w-full flex flex-col pt-5">
@@ -33,9 +25,10 @@ export default function Projects() {
 
       <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
         {
-          repos.map(repo => <Project key={repo.id} onRepo={repo}/>)
+          data.map((repo: repo) => <Project key={repo.id} repo={repo} />)
         }
       </div>
     </div>
   )
 }
+
