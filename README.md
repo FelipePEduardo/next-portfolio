@@ -4,7 +4,9 @@ Projeto do meu portfólio feito com Next.js 13(utilizando sua versão mais recen
 
 ## Demonstração
 
-:construction: Em construção :construction:
+https://user-images.githubusercontent.com/103855358/228945282-36cb9b11-f984-4485-8e52-00696136c196.mp4
+
+https://nextportfolioflp.netlify.app/
 
 ## Stack utilizada
 
