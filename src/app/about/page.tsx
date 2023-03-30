@@ -26,7 +26,11 @@ export default function About() {
           Me chamo <span className="text-gray-100 italic">Felipe Pereira Eduardo</span>, tenho 21 anos e moro em Santo André, São Paulo.
           <br />
           <br />
-          Minha conexão com desenvolvimento começou pelo Discover da <span className="text-gray-100 italic">Rocketseat</span>, migrei para o Explorer onde pude me desafiar ainda mais e logo depois ganhei uma bolsa para cursar o <span className="text-gray-100 italic">Ignite</span> onde estudo atualmente e tenho o foco em <strong className="text-violet-600">Desenvolvimento Front-End</strong> com <span className="text-gray-100 italic">ReactJS</span> . Busco me tornar um desenvolvedor Full-Stack.
+          Sou desenvolvedor front-end buscando minha primeira vaga. 
+          Minha conexão com desenvolvimento começou pelo Discover da <span className="text-gray-100 italic">Rocketseat</span>, migrei para o Explorer onde pude me desafiar ainda mais e logo depois ganhei uma bolsa para cursar o <span className="text-gray-100 italic">Ignite</span> onde estudo atualmente.
+          <br />
+          <br />
+          Tenho <strong className="text-violet-600">conhecimento em tecnologias</strong> como: <span className="text-gray-100 italic">ReactJS</span>, <span className="text-gray-100 italic">Next.js</span>, <span className="text-gray-100 italic">TypeScript</span> . Busco me tornar um desenvolvedor Full-Stack no futuro.
         </p>
         
       </div>
