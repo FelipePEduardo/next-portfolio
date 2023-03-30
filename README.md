@@ -14,9 +14,10 @@ Projeto do meu portfólio feito com Next.js 13(utilizando sua versão mais recen
 
 ```bash
 npm install
+npm run dev
 ```
 
 ## 🔗 Links
 
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://felipepeduardodev.netlify.app)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://nextportfolioflp.netlify.app)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felipepereiraeduardo/)
