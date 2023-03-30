@@ -5,9 +5,9 @@ import FlpImage from '../../assets/flpImg.jpeg'
 export default function About() {
   return (
     <div className="flex flex-col pt-5">
-      <h1 className="text-5xl font-bold bg-gradient-to-r from-[#80ffea] to-[#d49ef5] bg-clip-text text-transparent mb-10 md:text-center">Sobre mim</h1>
+      <h1 className="text-5xl font-bold bg-gradient-to-r from-[#80ffea] to-[#d49ef5] bg-clip-text text-transparent mb-10 ">Sobre mim</h1>
 
-      <div className="flex flex-col items-left md:items-center md:flex-row gap-14">
+      <div className="flex flex-col items-left  md:flex-row gap-14">
 
         <div>
           <Image 
