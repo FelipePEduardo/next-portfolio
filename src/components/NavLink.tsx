@@ -22,7 +22,3 @@ export function NavLink({ children, href, className }: NavLinkProps) {
     </Link>
   )
 }
-
-/* 
-  "text-gray-400 hover:text-gray-100 transition-colors tracking-wide uppercase data-[active=true]:border-b data-[active=true]:text-white data-[active=true]:border-white"
-*/
