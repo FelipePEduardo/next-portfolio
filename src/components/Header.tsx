@@ -1,6 +1,8 @@
 'use client'
+
 import Link from "next/link";
 import { MobileMenu } from "./MobileMenu";
+import { NavLink } from "./NavLink";
 
 export function Header() {
   return (
@@ -11,13 +13,28 @@ export function Header() {
         <nav className="hidden md:block">
           <ul className="flex items-center gap-4 text-sm">
             <li>
-              <Link href="/about" className="text-gray-400 hover:text-gray-100 transition-colors tracking-wide uppercase">Sobre</Link>
+              <NavLink 
+                className="text-gray-400 hover:text-gray-100 transition-colors tracking-wide uppercase data-[active=true]:border-b data-[active=true]:text-white data-[active=true]:border-white"
+                href="/about"
+              >
+                Sobre
+              </NavLink>
             </li>
             <li>
-              <Link href="/skills" className="text-gray-400 hover:text-gray-100 transition-colors tracking-wide uppercase">Habilidades</Link>
+              <NavLink 
+                className="text-gray-400 hover:text-gray-100 transition-colors tracking-wide uppercase data-[active=true]:border-b data-[active=true]:text-white data-[active=true]:border-white"
+                href="/skills"
+              >
+                Habilidades
+              </NavLink>
             </li>
             <li>
-              <Link href="/projects" className="text-gray-400 hover:text-gray-100 transition-colors tracking-wide uppercase">Projetos</Link>
+              <NavLink
+                className="text-gray-400 hover:text-gray-100 transition-colors tracking-wide uppercase data-[active=true]:border-b data-[active=true]:text-white data-[active=true]:border-white"
+                href="/projects"
+              >
+                Projetos
+              </NavLink>
             </li>
           </ul>
         </nav>

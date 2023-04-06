@@ -42,15 +42,3 @@ export default function About() {
     </div>
   )
 }
-
-
-
-
-/* export async function getServerSideProps() {
-  const res = await fetch(`https://api.github.com/users/FelipePEduardo`)
-  const data = await res.json()
-
-  console.log(data)
-
-  return { props: { data } }
-} */

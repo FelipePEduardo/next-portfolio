@@ -1,5 +1,6 @@
 import * as DropdownMenu from '@radix-ui/react-dropdown-menu'
 import Link from "next/link";
+import { NavLink } from './NavLink';
 
 export function MobileMenu() {
   return (
@@ -11,15 +12,15 @@ export function MobileMenu() {
       <DropdownMenu.Portal>
         <DropdownMenu.Content className='bg-violet-400 shadow-2xl shadow-black p-5 flex flex-col gap-1 rounded md:hidden'>
           <DropdownMenu.Item >
-            <Link href="/about" className='text-white border-y-2 border-transparent'>Sobre</Link>
+            <NavLink href="/about" className='text-white border-y-2 border-transparent data-[active=true]:text-white data-[active=true]:border-b-white'>Sobre</NavLink>
           </DropdownMenu.Item>
 
           <DropdownMenu.Item >
-            <Link href="/skills" className='text-white border-y-2 border-transparent'>Habilidades</Link>            
+            <NavLink href="/skills" className='text-white border-y-2 border-transparent data-[active=true]:text-white data-[active=true]:border-b-white'>Habilidades</NavLink>
           </DropdownMenu.Item>
 
           <DropdownMenu.Item >
-            <Link href="/projects" className='text-white border-y-2 border-transparent'>Projetos</Link>            
+            <NavLink href="/projects" className='text-white border-y-2 border-transparent data-[active=true]:text-white data-[active=true]:border-b-white'>Projetos</NavLink>
           </DropdownMenu.Item>
 
           <DropdownMenu.Arrow className='fill-violet-400'/>
