@@ -8,7 +8,9 @@ interface repo {
 }
 
 async function getReposFromUser() {
-  const response = await fetch("https://api.github.com/users/FelipePEduardo/repos?sort=pushed&per_page=12")
+  const response = await fetch("https://api.github.com/users/FelipePEduardo/repos?sort=pushed&per_page=12", {
+    cache: 'no-store',
+  })
 
   return response.json()
 }

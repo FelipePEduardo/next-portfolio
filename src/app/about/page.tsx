@@ -2,7 +2,15 @@ import Image from "next/image";
 
 import FlpImage from '../../assets/flpImg.jpeg'
 
-export default function About() {
+type User = {
+  bio: string
+}
+
+export default async function About() {
+  const response = await fetch('https://api.github.com/users/FelipePEduardo')
+
+  const data: User = await response.json()
+
   return (
     <div className="flex flex-col pt-5">
       <h1 className="text-5xl font-bold bg-gradient-to-r from-[#80ffea] to-[#d49ef5] bg-clip-text text-transparent mb-10 ">Sobre mim</h1>
@@ -37,7 +45,9 @@ export default function About() {
 
       <h2 className="mt-10 mb-5 text-left text-2xl font-bold">Bio</h2>
       <blockquote className="pl-5 text-gray-400 italic max-w-xl border-l border-gray-400">
-        Desenvolvedor Front-End React no caminho para o primeiro trabalho na área! Estudante do Ignite na Rocketseat.
+        {
+          data.bio
+        }
       </blockquote>
     </div>
   )

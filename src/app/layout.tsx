@@ -20,11 +20,11 @@ export default function RootLayout({
     <html lang="pt-BR" className={HankenGrotesk.className} >
       <body className='bg-purpleDark-900 text-gray-100'>
         <div className='relative h-screen flex flex-col'>
-          <Header />    
-                
-            <main className='max-w-5xl px-8 py-24 mx-auto flex items-center flex-1'>
-              {children}
-            </main>
+          <Header />  
+                  
+          <main className='max-w-5xl px-8 py-24 mx-auto flex items-center flex-1'>
+            {children}
+          </main>
           
           <Footer />
         </div>
