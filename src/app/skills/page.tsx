@@ -9,9 +9,9 @@ export default function Skills() {
   return (
     <div className="flex flex-col gap-12 pt-5">
       <div>
-        <h1 className="text-4xl font-bold bg-gradient-to-r from-[#56ffa5] to-[ #fff] bg-clip-text text-transparent mb-5">Cursos</h1>
+        <h1 className="text-4xl font-bold bg-gradient-to-r from-[#56ffa5] to-[ #fff] bg-clip-text text-transparent mb-5">Cursos & Certificados</h1>
         <p className="mb-4">
-          Estes são os cursos que fiz. Em 2022 foi o ano que comecei minha jornada no Explorer e atualmente estou focado no Ignite!
+          Estes são os cursos que fiz, juntamente com os certificados. Em 2022 foi o ano que comecei minha jornada no Explorer e atualmente estou focado no Ignite!
         </p>
 
         <Courses />

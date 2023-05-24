@@ -9,17 +9,17 @@ export function MobileMenu() {
       </DropdownMenu.Trigger>
 
       <DropdownMenu.Portal>
-        <DropdownMenu.Content className='bg-violet-400 shadow-2xl shadow-black p-5 flex flex-col gap-1 rounded md:hidden'>
+        <DropdownMenu.Content className='bg-purpleDark-700 shadow-2xl shadow-black p-5 flex flex-col gap-1 rounded md:hidden'>
           <DropdownMenu.Item >
-            <NavLink href="/about" className='text-white border-y-2 border-transparent data-[active=true]:text-white data-[active=true]:border-b-white'>Sobre</NavLink>
+            <NavLink href="/about">Sobre</NavLink>
           </DropdownMenu.Item>
 
           <DropdownMenu.Item >
-            <NavLink href="/skills" className='text-white border-y-2 border-transparent data-[active=true]:text-white data-[active=true]:border-b-white'>Habilidades</NavLink>
+            <NavLink href="/skills">Habilidades</NavLink>
           </DropdownMenu.Item>
 
           <DropdownMenu.Item >
-            <NavLink href="/projects" className='text-white border-y-2 border-transparent data-[active=true]:text-white data-[active=true]:border-b-white'>Projetos</NavLink>
+            <NavLink href="/projects">Projetos</NavLink>
           </DropdownMenu.Item>
 
           <DropdownMenu.Arrow className='fill-violet-400'/>

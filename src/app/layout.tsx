@@ -3,6 +3,7 @@ import './globals.css'
 import { Hanken_Grotesk } from 'next/font/google'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
+import { ReactNode } from 'react'
 
 const HankenGrotesk = Hanken_Grotesk({ subsets: ['latin'] })
 
@@ -14,7 +15,7 @@ export const metadata = {
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: ReactNode
 }) {
   return (
     <html lang="pt-BR" className={HankenGrotesk.className} >

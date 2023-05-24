@@ -40,4 +40,8 @@ export const skills = [
     id: 10,
     title: 'Github',
   },
+  {
+    id: 11,
+    title: 'Nodejs',
+  },
 ]

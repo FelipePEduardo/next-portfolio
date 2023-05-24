@@ -14,15 +14,13 @@ export function Header() {
           <ul className="flex items-center gap-4 text-sm">
             <li>
               <NavLink 
-                className="text-gray-400 hover:text-gray-100 transition-colors tracking-wide uppercase data-[active=true]:border-b data-[active=true]:text-white data-[active=true]:border-white"
                 href="/about"
               >
                 Sobre
               </NavLink>
             </li>
             <li>
-              <NavLink 
-                className="text-gray-400 hover:text-gray-100 transition-colors tracking-wide uppercase data-[active=true]:border-b data-[active=true]:text-white data-[active=true]:border-white"
+              <NavLink
                 href="/skills"
               >
                 Habilidades
@@ -30,7 +28,6 @@ export function Header() {
             </li>
             <li>
               <NavLink
-                className="text-gray-400 hover:text-gray-100 transition-colors tracking-wide uppercase data-[active=true]:border-b data-[active=true]:text-white data-[active=true]:border-white"
                 href="/projects"
               >
                 Projetos
