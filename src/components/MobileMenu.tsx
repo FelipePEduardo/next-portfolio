@@ -3,7 +3,7 @@ import { NavLink } from './NavLink';
 
 export function MobileMenu() {
   return (
-    <DropdownMenu.Root>
+    <DropdownMenu.Root modal={false}>
       <DropdownMenu.Trigger className='relative w-7 h-12 bg-none border-none cursor-pointer md:hidden group'>
           <div className='relative w-full h-1 bg-violet-100 rounded leading-none after:content-[""] after:absolute after:w-full after:left-0 after:h-1 after:bg-violet-100 after:rounded after:top-2 before:content-[""] before:absolute before:w-full before:left-0 before:h-1 before:bg-violet-100 before:rounded before:-top-2 group-data-[state=open]:bg-transparent group-data-[state=open]:after:-rotate-45 group-data-[state=open]:after:top-0 group-data-[state=open]:before:rotate-45 group-data-[state=open]:before:top-0 transition-all after:transition-all before:transition-all'></div>
       </DropdownMenu.Trigger>
