@@ -41,7 +41,7 @@ export function Courses() {
           <FiChevronDown className="group-data-[state=open]:rotate-180 transition-transform" />
         </Accordion.Trigger>
         <Accordion.Content className='bg-purpleDark-700 overflow-hidden data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp'>
-          <div className="p-5">
+          <div className="flex flex-col gap-2 p-5">
             Programa da Rocketseat focado em formar e desenvolver habilidades
             técnicas e comportamentais com foco na primeira oportunidade como
             programador. <br />
@@ -56,6 +56,13 @@ export function Courses() {
             - Deploy <br />- Desafio final &#40;Desenvolvimento de um Cardápio
             Digital utilizando os conceitos técnicos abordados no decorrer da
             formação&#41;.
+            <a 
+              href="https://drive.google.com/file/d/10NUUepU8PDgVVU4PyynTRFd1LxUNpg2y/view?usp=sharing"
+              target='_blank'
+              className='flex items-center gap-1  underline motion-reduce:animate-pulse'
+            >
+              Ver certificado <FiArrowRight />
+            </a>
           </div>
         </Accordion.Content>
       </Accordion.Item>
