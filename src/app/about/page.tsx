@@ -38,7 +38,7 @@ export default async function About() {
           Minha conexão com desenvolvimento começou pelo Discover da <span className="text-gray-100 italic">Rocketseat</span>, migrei para o Explorer onde pude me desafiar ainda mais e logo depois ganhei uma bolsa para cursar o <span className="text-gray-100 italic">Ignite</span> onde estudo atualmente.
           <br />
           <br />
-          Tenho <strong className="text-violet-600">conhecimento em tecnologias</strong> como: <span className="text-gray-100 italic">ReactJS</span>, <span className="text-gray-100 italic">Next.js</span>, <span className="text-gray-100 italic">TypeScript</span> . Busco me tornar um desenvolvedor Full-Stack no futuro.
+          Tenho <strong className="text-violet-500">conhecimento em tecnologias</strong> como: <span className="text-gray-100 italic">ReactJS</span>, <span className="text-gray-100 italic">Next.js</span>, <span className="text-gray-100 italic">TypeScript</span> . Busco me tornar um desenvolvedor Full-Stack no futuro.
         </p>
         
       </div>
