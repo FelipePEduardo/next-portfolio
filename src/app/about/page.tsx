@@ -28,17 +28,23 @@ export default async function About() {
             quality={100}
             />
         </div>
-
-        
+      
         <p className="md:max-w-sm leading-8 text-gray-400">
-          Me chamo <span className="text-gray-100 italic">Felipe Pereira Eduardo</span>, tenho 21 anos e moro em Santo André, São Paulo.
+          Me chamo <span className="text-gray-100 italic">Felipe Pereira Eduardo</span>, tenho 23 anos e moro em Santo André, São Paulo.
           <br />
           <br />
-          Sou desenvolvedor front-end buscando minha primeira vaga. 
-          Minha conexão com desenvolvimento começou pelo Discover da <span className="text-gray-100 italic">Rocketseat</span>, migrei para o Explorer onde pude me desafiar ainda mais e logo depois ganhei uma bolsa para cursar o <span className="text-gray-100 italic">Ignite</span> onde estudo atualmente.
+          Atualmente estou atuando como desenvolvedor Full-Stack Pleno na
+          <a href="https://www.linkedin.com/company/tbdcagro/posts/?feedView=all" className="mx-1 text-violet-500">
+            @TBDC AgroSoftware
+          </a>
+            Atuo utilizando ferramentas como <span className="text-gray-100 italic">Vuejs</span>, <span className="text-gray-100 italic">Nodejs</span>, <span className="text-gray-100 italic">Typescript</span>,
+            desenvolvendo features, aplicando refatorações e manutenções em
+            sistema web.
           <br />
           <br />
-          Tenho <strong className="text-violet-500">conhecimento em tecnologias</strong> como: <span className="text-gray-100 italic">ReactJS</span>, <span className="text-gray-100 italic">Next.js</span>, <span className="text-gray-100 italic">TypeScript</span> . Busco me tornar um desenvolvedor Full-Stack no futuro.
+          Me considero uma pessoa focada, persistente em aprender uma nova
+          linguagem e me adaptar à qualquer mudança. Estou pronto para superar
+          qualquer desafio, sempre disposto a aprender e ensinar.
         </p>
         
       </div>
